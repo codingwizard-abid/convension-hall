@@ -5,42 +5,53 @@
 
 /* applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-
+   /* slider */
+   .slider-content{
+      margin-top: 150px;
+   }
 }
 
 /* applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-   #header .custon-logo img{
-      width: 250px;
+   /* slider */
+   .slider-content{
+      margin-top: 130px;
    }
-   #header .custom-nav li{
-      margin-left: 10px;
-   }
-   .banner-content h1{
-      font-size: 60px;
-      line-height: 70px;
+   .slider-content h2{
+      font-size: 42px;
+      line-height: 50px;
    }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-   .banner-content{
-      margin-top: 20px;
+   /* slider */
+   .slider-content{
+      margin-top: 100px;
    }
-   /* Products */
-   #casual-products{
-   padding: 20px 0;
-}
+   .slider-content h2{
+      font-size: 32px;
+      line-height: 43px;
+   }
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-   #header .custon-logo img{
-      width: 200px;
+   .text-logo h2{
+      font-size: 16px !important;
    }
-   .banner-content h1{
-      font-size: 40px;
-      line-height: 50px;
+   /* slider */
+   .slider-content{
+      margin-top: 70px;
    }
+   .slider-content h2{
+      font-size: 22px;
+      line-height: 33px;
+   }
+   .slider-content p{
+      font-size: 14px;
+      line-height: 24px;
+   }
+
 }
 
