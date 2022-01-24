@@ -115,3 +115,10 @@ body{
 .counter-icon{
    width: 100px;
 }
+
+/* faq */
+
+.custom-qus{
+   color: #3e3e3e !important;
+   background: #9b895121 !important; 
+}
