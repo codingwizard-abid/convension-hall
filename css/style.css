@@ -139,7 +139,9 @@ body{
    top:150px;
    right: 0;
    width: 265px;
-   border-left: 8px solid #9b8851;
+   background: #fff;
+   border-left: 7px solid #9b8851;
+   z-index: 9999;
 }
 i.fa-gift{
    font-size: 16px;

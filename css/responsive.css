@@ -38,9 +38,13 @@
       line-height: 43px;
    }
    /* packages */
+   #packages{
+      padding: 40px 0 60px;
+   }
    .highlighted-pack{
       transform: translateY(0px);
    }
+
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
@@ -64,6 +68,10 @@
    .slider-content p{
       font-size: 14px;
       line-height: 24px;
+   }
+   /* packages */
+   #packages{
+      padding: 30px 0 50px;
    }
 
 }
