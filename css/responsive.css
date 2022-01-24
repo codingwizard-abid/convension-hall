@@ -9,7 +9,18 @@
 
 /* applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+   /* utility */
+   .m-b-primary{
+      margin-bottom: 60px;
+   }
+   /* header  */
+   .custom-navbar{
+      padding: 10px 0 !important;
+   }
    /* slider */
+   #slider {
+      margin-top: 65px;
+   }
    .slider-content{
       margin-top: 130px;
    }
@@ -44,11 +55,6 @@
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-   /* utility */
-   .m-b-primary{
-      margin-bottom: 60px;
-   }
-
    .text-logo h2{
       font-size: 16px !important;
    }
