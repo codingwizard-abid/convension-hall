@@ -21,6 +21,10 @@
       font-size: 42px;
       line-height: 50px;
    }
+   /* packages */
+   .highlighted-pack{
+      transform: translateY(-20px);
+   }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
@@ -32,6 +36,10 @@
    .slider-content h2{
       font-size: 32px;
       line-height: 43px;
+   }
+   /* packages */
+   .highlighted-pack{
+      transform: translateY(0px);
    }
 }
 

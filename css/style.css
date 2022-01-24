@@ -14,9 +14,6 @@ body{
 /* main css */
 
 /* utility */
-.font-poppins{
-   font-family: 'Poppins', sans-serif;
-}
 .font-roboto{
    font-family: 'Roboto', sans-serif;
 }
@@ -30,6 +27,9 @@ body{
 .section-title{
    font-weight: 600;
    font-size: 38px;
+}
+.m-b-primary{
+   margin-bottom: 100px;
 }
 /* header */
 .custom-nav li a{
@@ -72,4 +72,34 @@ body{
 #latest-events{
    padding: 80px 0;
    overflow-x: hidden;
+}
+
+/* packages */
+#packages{
+   padding: 50px 0 80px;
+}
+.single-package{
+   border-radius: 20px;
+}
+.single-package h2{
+   font-size: 36px;
+   line-height: 46px;
+}
+.single-package h3{
+   font-size: 28px;
+   line-height: 32px;
+}
+.single-package p{
+   font-size: 15px;
+   line-height: 22px;
+}
+.package-btn{
+   background-color: #9b895121;
+}
+.highlighted-pack{
+   transform: translateY(-30px);
+}
+.custom-badge{
+   top:-10px;
+   right: 20px;
 }
