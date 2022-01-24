@@ -1,7 +1,3 @@
-/* applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-   
-}
 
 /* applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -44,7 +40,6 @@
    .highlighted-pack{
       transform: translateY(0px);
    }
-
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
@@ -73,6 +68,5 @@
    #packages{
       padding: 30px 0 50px;
    }
-
 }
 
