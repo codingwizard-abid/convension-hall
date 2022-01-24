@@ -51,6 +51,11 @@
    .highlighted-pack{
       transform: translateY(0px);
    }
+   /* footer */
+#footer{
+   background-color: #0B0D17;
+   padding: 30px 0;
+}
 }
 
 /* applies to x-small devices (portrait phones, less than 576px) */
