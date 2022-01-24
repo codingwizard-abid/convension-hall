@@ -60,6 +60,10 @@
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+   /* utility */
+   .section-title{
+      font-size: 28px;
+   }
    .text-logo h2{
       font-size: 16px !important;
    }
@@ -78,6 +82,10 @@
    /* packages */
    #packages{
       padding: 30px 0 50px;
+   }
+   /* counter area */
+   #counter{
+      padding: 30px 0;
    }
 }
 
