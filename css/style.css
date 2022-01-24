@@ -117,8 +117,13 @@ body{
 }
 
 /* faq */
-
+#faq{
+   padding: 80px 0;
+}
 .custom-qus{
    color: #3e3e3e !important;
    background: #9b895121 !important; 
+}
+.faq-img img{
+   width: 90%;
 }
